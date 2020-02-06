@@ -27,7 +27,6 @@
             "Cluster\\lio\\":"src/"
         }
     },
-    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "composer",
