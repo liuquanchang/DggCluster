@@ -1,0 +1,492 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "88e27813cd8a5aeaa33c3d2a809d34ff",
+    "packages": [
+        {
+            "name": "doctrine/annotations",
+            "version": "1.9.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "dc296632db0500c7bd5144161cf96708f61059ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/dc296632db0500c7bd5144161cf96708f61059ff",
+                "reference": "dc296632db0500c7bd5144161cf96708f61059ff",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "1.*",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "doctrine/cache": "1.*",
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Docblock Annotations Parser",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "time": "2020-01-24T20:59:30+00:00"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "1febd6c3ef84253d7c815bed85fc622ad207a9f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/1febd6c3ef84253d7c815bed85fc622ad207a9f8",
+                "reference": "1febd6c3ef84253d7c815bed85fc622ad207a9f8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "https://www.doctrine-project.org/projects/lexer.html",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "lexer",
+                "parser",
+                "php"
+            ],
+            "time": "2019-06-08T11:03:04+00:00"
+        },
+        {
+            "name": "php-di/phpdoc-reader",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-DI/PhpDocReader.git",
+                "reference": "15678f7451c020226807f520efb867ad26fbbfcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-DI/PhpDocReader/zipball/15678f7451c020226807f520efb867ad26fbbfcf",
+                "reference": "15678f7451c020226807f520efb867ad26fbbfcf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpDocReader\\": "src/PhpDocReader"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PhpDocReader parses @var and @param values in PHP docblocks (supports namespaced class names with the same resolution rules as PHP)",
+            "keywords": [
+                "phpdoc",
+                "reflection"
+            ],
+            "time": "2019-09-26T11:24:58+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/fc1bc363ecf887921e3897c7b1dad3587ae154eb",
+                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2019-10-04T14:07:35+00:00"
+        },
+        {
+            "name": "swoft/annotation",
+            "version": "v2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoft-cloud/swoft-annotation.git",
+                "reference": "23e445c32d0133374a69446aef7aa21bbf60af70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoft-cloud/swoft-annotation/zipball/23e445c32d0133374a69446aef7aa21bbf60af70",
+                "reference": "23e445c32d0133374a69446aef7aa21bbf60af70",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "^1.4",
+                "php": ">7.1",
+                "php-di/phpdoc-reader": "^2.0",
+                "swoft/stdlib": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swoft\\Annotation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "swoft annotation component",
+            "homepage": "https://github.com/swoft-cloud/swoft-annotation",
+            "keywords": [
+                "annotation",
+                "php",
+                "swoft",
+                "swoole"
+            ],
+            "time": "2020-01-17T11:42:47+00:00"
+        },
+        {
+            "name": "swoft/bean",
+            "version": "v2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoft-cloud/swoft-bean.git",
+                "reference": "9b4752cb7a37e615cc56528980bf73859610ac6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoft-cloud/swoft-bean/zipball/9b4752cb7a37e615cc56528980bf73859610ac6f",
+                "reference": "9b4752cb7a37e615cc56528980bf73859610ac6f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">7.1.0",
+                "psr/container": "^1.0",
+                "swoft/annotation": "~2.0.0",
+                "swoft/event": "~2.0.0",
+                "swoft/stdlib": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swoft\\Bean\\": "src/"
+                },
+                "files": [
+                    "src/Helper/Functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "micro-service framework base on swoole",
+            "homepage": "https://github.com/swoft-cloud/swoft-bean",
+            "keywords": [
+                "bean",
+                "container",
+                "php",
+                "swoft",
+                "swoft-bean",
+                "swoole"
+            ],
+            "time": "2020-01-10T06:53:01+00:00"
+        },
+        {
+            "name": "swoft/event",
+            "version": "v2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoft-cloud/swoft-event.git",
+                "reference": "ac527f8b55c9f204743570d015c688695a465d61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoft-cloud/swoft-event/zipball/ac527f8b55c9f204743570d015c688695a465d61",
+                "reference": "ac527f8b55c9f204743570d015c688695a465d61",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">7.1.0",
+                "swoft/stdlib": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swoft\\Event\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "swoft event dispatcher component",
+            "homepage": "https://github.com/swoft-cloud/swoft-event",
+            "keywords": [
+                "event",
+                "event-dispatcher",
+                "php",
+                "psr-14",
+                "swoft",
+                "swoole"
+            ],
+            "time": "2020-01-09T10:23:42+00:00"
+        },
+        {
+            "name": "swoft/redis",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoft-cloud/swoft-redis.git",
+                "reference": "d9bf515b7f6eb2efa6bc6580c9e9ce384e9ef3af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoft-cloud/swoft-redis/zipball/d9bf515b7f6eb2efa6bc6580c9e9ce384e9ef3af",
+                "reference": "d9bf515b7f6eb2efa6bc6580c9e9ce384e9ef3af",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [],
+                "psr-4": {
+                    "Swoft\\Redis\\": "src/"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Redis Component for Swoft",
+            "keywords": [
+                "php",
+                "redis",
+                "swoft",
+                "swoole"
+            ],
+            "time": "2019-04-09T09:02:00+00:00"
+        },
+        {
+            "name": "swoft/serialize",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoft-cloud/swoft-serialize.git",
+                "reference": "58fd2f1f3a867bac64aa07483cc00ade2af9dd19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoft-cloud/swoft-serialize/zipball/58fd2f1f3a867bac64aa07483cc00ade2af9dd19",
+                "reference": "58fd2f1f3a867bac64aa07483cc00ade2af9dd19",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swoft\\Serialize\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "inhere",
+                    "email": "in.798@qq.com",
+                    "homepage": "http://www.yzone.net/"
+                }
+            ],
+            "description": "simple data serializer tool library of the php",
+            "homepage": "https://github.com/swoft-cloud/swoft-serialize",
+            "keywords": [
+                "library",
+                "php",
+                "tool"
+            ],
+            "time": "2019-12-02T13:22:44+00:00"
+        },
+        {
+            "name": "swoft/stdlib",
+            "version": "v2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoft-cloud/swoft-stdlib.git",
+                "reference": "ec4e00e1540956d732fdd5db7b4a263be56e63b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoft-cloud/swoft-stdlib/zipball/ec4e00e1540956d732fdd5db7b4a263be56e63b5",
+                "reference": "ec4e00e1540956d732fdd5db7b4a263be56e63b5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swoft\\Stdlib\\": "src/"
+                },
+                "files": [
+                    "src/Helper/Functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "swoft stclib component",
+            "keywords": [
+                "helper",
+                "php",
+                "swoft",
+                "swoole"
+            ],
+            "time": "2020-01-17T08:25:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">7.1"
+    },
+    "platform-dev": []
+}

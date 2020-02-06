@@ -1,0 +1,37 @@
+{
+    "name": "dggcluster/dggcluster",
+    "description": "websocket cluster for swoft",
+    "type": "library",
+    "keywords": [
+        "swoft",
+        "redis",
+        "websocket"
+    ],
+    "require": {
+        "php": ">7.1",
+        "swoft/websocket-server": "~2.0.0",
+        "swoft/redis": "~2.0.0",
+        "swoft/stdlib": "~2.0.0",
+        "swoft/serialize": "~2.0.0",
+        "swoft/bean": "~2.0.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "liosmt",
+            "email": "liosmt@liosmt.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cluster\\lio\\":"src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    ]
+}
